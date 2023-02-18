@@ -10,8 +10,8 @@ public class FirstController {
         return "Приложение запущено";
     }
 
-    @GetMapping
-    public String infoStundent() {
+    @GetMapping("/info")
+    public String info() {
         return "Ученик: Дмитрий" + " Название проекта: Maven Lesson" + " 17.02.2023" + "Описание проекта: Практика по работе с Maven";
     }
 }
